@@ -129,10 +129,46 @@ a:active {
 .oem-brand {
     text-align: center;
     padding: 0 1em;
+    position: relative;
+}
+
+.oem-brand section a:after {
+    display: block;
+    content: '';
+    width: 75px;
+    height: 75px;
+    background: url('../img/starburst.png') no-repeat center center / contain;
+    position: absolute;
+    right: -19px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.oem-brand:nth-of-type(odd) section a:after {
+    top: 15%;
+}
+
+.oem-brand:nth-of-type(even) section a:after {
+    bottom: 44%;
+}
+
+.oem-brand:nth-of-type(odd) section a:hover:after {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.oem-brand:nth-of-type(even) section a:hover:after {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }
 
 .oem-brand img {
     width: 100%;
+}
+
+.oem-brand footer {
+    position: relative;
+    top: -15%;
 }
 
 .oem-brand .logo {
@@ -169,10 +205,6 @@ a:active {
         width: 20%;
     }
 
-    .oem-brand footer {
-        position: relative;
-        top: -8em;
-    }
 }
 
 /* ==========================================================================
