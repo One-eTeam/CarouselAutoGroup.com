@@ -92,11 +92,6 @@ a:active {
     margin-top: 0;
 }
 
-.main aside {
-    color: white;
-    padding: 0px 5% 10px;
-}
-
 .footer-container footer {
     color: white;
     padding: 20px 0;
@@ -200,16 +195,6 @@ a:active {
     width: 1px;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
 .invisible {
     visibility: hidden;
 }
@@ -251,31 +236,13 @@ a:active {
         content: " (" attr(href) ")";
     }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
     img {
         page-break-inside: avoid;
-    }
-
-    img {
         max-width: 100% !important;
     }
 
