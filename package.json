@@ -1,0 +1,24 @@
+{
+  "name": "carouselautogroup.com",
+  "version": "1.0.0",
+  "description": "GitHub Pages site for Carousel Auto Group",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-inline": "^0.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-eTeam/CarouselAutoGroup.com.git"
+  },
+  "author": "AndrewRMinion Design",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/One-eTeam/CarouselAutoGroup.com/issues"
+  },
+  "homepage": "https://github.com/One-eTeam/CarouselAutoGroup.com#readme"
+}

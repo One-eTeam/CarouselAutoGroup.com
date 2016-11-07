@@ -137,7 +137,7 @@ a:active {
     content: '';
     width: 75px;
     height: 75px;
-    background: url('../img/starburst.png') no-repeat center center / contain;
+    background: url('../img/starburst.png?__inline=true') no-repeat center center / contain;
     position: absolute;
     right: -19px;
     -webkit-transition: all .3s ease;
