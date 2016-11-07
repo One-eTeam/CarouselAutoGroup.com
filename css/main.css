@@ -76,7 +76,7 @@ a:active {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 30px 0 0;
 }
 
 .main article {
@@ -94,7 +94,7 @@ a:active {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 /* ===============
@@ -145,11 +145,11 @@ a:active {
 }
 
 .oem-brand:nth-of-type(odd) section a:after {
-    top: 15%;
+    top: 10%;
 }
 
 .oem-brand:nth-of-type(even) section a:after {
-    bottom: 44%;
+    bottom: 34%;
 }
 
 .oem-brand:nth-of-type(odd) section a:hover:after {
@@ -168,7 +168,8 @@ a:active {
 
 .oem-brand footer {
     position: relative;
-    top: -15%;
+    top: -6%;
+    margin-bottom: -6%;
 }
 
 .oem-brand .logo {
